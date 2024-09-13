@@ -1,2 +1,3 @@
-# spleeter-docker-gcp
-Builds docker image and deploys on GCP to avoid M1 chip problems
+gcloud builds submit --tag []/my-spleeter-image . 
+gcloud builds submit --config cloudbuild.yaml . # enables layer cache, speeds up docker image building
+
