@@ -21,3 +21,6 @@ then:
 	bucket_name = os.getenv('BUCKET_NAME', 'default-bucket-name')
 	stems_number = os.getenv('STEMS_NUMBER', '5')
 
+# Spleeter
+
+Original project Deezer source separation library including pretrained models. [https://github.com/deezer/spleeter]
